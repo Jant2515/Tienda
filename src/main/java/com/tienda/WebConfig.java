@@ -33,7 +33,6 @@ public class WebConfig implements WebMvcConfigurer {
         return lci;
     }
     
- 
     public void addInterceptor(InterceptorRegistry registro) {
         registro.addInterceptor(localeChangeInterceptor());
     }
